@@ -12,7 +12,8 @@ namespace CSE412Proj
 {
     public partial class _Default : Page
     {
-        private const string CONNECTION_STRING = "Server=localhost; Port=5433; Database=owlDB; Username=postgres; Password=2983";
+        // Connect to local postgresql
+        private const string CONNECTION_STRING = "Server=localhost; Port=5432; Database=owlDB; Username=ENTERUSERNAME; Password=ENTERPASSWORD";
 
         protected void Page_Load(object sender, EventArgs e)
         {
